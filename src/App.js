@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+// import logo from "./logo.svg";
+import "./App.css";
+import Page from "./components/Page";
 
 function App() {
+  // initial page title name
+  document.title = "Yin Long Portfolio";
+  // all page options
+  const [pages] = useState([
+    { name: "about me" },
+    { name: "portfolio" },
+    { name: "resume" },
+    { name: "contact" },
+  ]);
+  // set the initial page -- About me
+  const [currentPage, setCurrentPage] = useState(pages[0]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main>
+        <Page currentPage={currentPage}></Page>
+      </main>
     </div>
   );
 }
