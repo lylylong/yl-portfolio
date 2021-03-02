@@ -8,12 +8,12 @@ function App() {
   document.title = "Yin Long Portfolio";
   // all page options
   const [pages] = useState([
-    { name: "about me" },
     { name: "portfolio" },
+    { name: "about me" },
     { name: "resume" },
     { name: "contact" },
   ]);
-  // set the initial page -- About me
+  // set the initial page -- this list shows which one goes first
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (

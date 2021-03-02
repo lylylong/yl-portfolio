@@ -1,7 +1,8 @@
 import React from "react";
 // import PageContent from "../PageContent";
+import Portfolio from "../Portfolio";
 import About from "../About";
-// import Portfolio from "../Portfolio";
+
 // import Contact from "../Contact";
 // import Resume from "../Resume";
 import { titleCase } from "../../utils/helper";
@@ -10,16 +11,17 @@ function Page({ currentPage }) {
   // switch all pages
   const contentRender = () => {
     switch (currentPage.name) {
+      case "portfolio":
+        return <Portfolio />;
       case "about me":
         return <About />;
-      //   case "portfolio":
-      //     return <Portfolio />;
+
       //   case "resume":
       //     return <Resume />;
       //   case "contact":
       //     return <Contact />;
       default:
-        return <About />;
+        return <Portfolio />;
     }
   };
 
