@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { titleCaseRemoveHyphen } from "../../utils/helper";
+import { Flex, Box, Image, Link, Badge } from "@chakra-ui/react";
 
 function Portfolio() {
   // all projects
@@ -44,48 +45,62 @@ function Portfolio() {
   //   const { name, description, link, repo } = [projects[i]];
 
   return (
-    <div>
-      <h1 id="about">Portfolio Here!</h1>
-      <div className="flex-row">
-        {projects.map((project, i) => (
-          <div className="project col-lg-4 col-sm-6" key={project.name}>
-            <p className="mt-3 project-title">
+    <Flex align="center" justify="space-between" wrap="wrap" w="100%" p={6}>
+      {projects.map((project, i) => (
+        <Box
+          maxW="sm"
+          borderWidth="1px"
+          borderRadius="lg"
+          overflow="hidden"
+          mt="8"
+        >
+          <Image
+            src={require(`../../assets/projects/${project.name}.jpg`).default}
+            alt={project.name + " app"}
+          />
+
+          <Box p="5" pt="3">
+            <Box
+              mt="1"
+              fontWeight="semibold"
+              as="h4"
+              lineHeight="tight"
+              mb="3"
+              isTruncated
+            >
               {titleCaseRemoveHyphen(project.name)}
-            </p>
-            <img
-              src={require(`../../assets/projects/${project.name}.jpg`).default}
-              alt={project.name}
-              className="project-img"
-            />
-            <div className="project-detail text-left">
-              <p>
-                <i className="fas fa-globe"></i>
-                <a
-                  className="project-info"
-                  href={project.link}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {" "}
-                  URL{" "}
-                </a>
-                <i className="fab fa-github"></i>
-                <a
-                  className="project-info"
+            </Box>
+            <Box d="flex" alignItems="baseline">
+              <Box
+                color="gray.500"
+                fontWeight="semibold"
+                letterSpacing="wide"
+                fontSize="xs"
+                textTransform="uppercase"
+              >
+                <Link color="teal.500" href={project.link} target="_blank">
+                  <Badge borderRadius="full" px="2" colorScheme="teal">
+                    Deployed URL
+                  </Badge>
+                </Link>
+                <Link
+                  color="pink.500"
                   href={project.repo}
                   target="_blank"
-                  rel="noreferrer"
+                  ml="2"
                 >
-                  {" "}
-                  Repo
-                </a>
-              </p>
-              <p className="project-description">{project.description}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
+                  <Badge borderRadius="full" px="2" colorScheme="pink">
+                    GitHub Link
+                  </Badge>
+                </Link>
+              </Box>
+            </Box>
+
+            <Box mt="1">{project.description}</Box>
+          </Box>
+        </Box>
+      ))}
+    </Flex>
   );
 }
 

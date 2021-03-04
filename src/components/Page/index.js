@@ -3,6 +3,7 @@ import Portfolio from "../Portfolio";
 import About from "../About";
 import Resume from "../Resume";
 import Contact from "../Contact";
+import { Box } from "@chakra-ui/react";
 import { titleCase } from "../../utils/helper";
 
 function Page({ currentPage }) {
@@ -23,12 +24,9 @@ function Page({ currentPage }) {
   };
 
   return (
-    <section>
-      <h2 className="mb-3">{titleCase(currentPage.name)}</h2>
-      <div>
-        <h2>{contentRender()}</h2>
-      </div>
-    </section>
+    <Box w="100%" p={6} color="white">
+      {contentRender()}
+    </Box>
   );
 }
 export default Page;

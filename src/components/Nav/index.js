@@ -90,6 +90,8 @@ function Nav(props) {
                   key={page.name}
                 >
                   <Text
+                    color="gray"
+                    fontWeight="normal"
                     onClick={() => setCurrentPage(page)}
                     className={`mx-2 ${
                       currentPage.name === page.name && "navActive"
