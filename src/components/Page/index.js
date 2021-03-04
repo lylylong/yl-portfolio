@@ -1,10 +1,8 @@
 import React from "react";
-// import PageContent from "../PageContent";
 import Portfolio from "../Portfolio";
 import About from "../About";
-
-// import Contact from "../Contact";
-// import Resume from "../Resume";
+import Resume from "../Resume";
+import Contact from "../Contact";
 import { titleCase } from "../../utils/helper";
 
 function Page({ currentPage }) {
@@ -15,11 +13,10 @@ function Page({ currentPage }) {
         return <Portfolio />;
       case "about me":
         return <About />;
-
-      //   case "resume":
-      //     return <Resume />;
-      //   case "contact":
-      //     return <Contact />;
+      case "resume":
+        return <Resume />;
+      case "contact":
+        return <Contact />;
       default:
         return <Portfolio />;
     }

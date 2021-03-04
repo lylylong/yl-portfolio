@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 // import logo from "./logo.svg";
 import "./App.css";
+
+// import `ChakraProvider` component
+import { ChakraProvider } from "@chakra-ui/react";
+
+import Nav from "./components/Nav";
 import Page from "./components/Page";
 
 function App() {
@@ -17,11 +22,15 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
-    <div className="App">
-      <main>
-        <Page currentPage={currentPage}></Page>
-      </main>
-    </div>
+    <ChakraProvider>
+      <Nav
+        pages={pages}
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      ></Nav>
+
+      <Page currentPage={currentPage}></Page>
+    </ChakraProvider>
   );
 }
 
