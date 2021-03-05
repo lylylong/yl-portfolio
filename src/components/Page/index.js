@@ -24,7 +24,7 @@ function Page({ currentPage }) {
   };
 
   return (
-    <Box w="100%" p={6} color="white">
+    <Box w="100%" p={6}>
       {contentRender()}
     </Box>
   );

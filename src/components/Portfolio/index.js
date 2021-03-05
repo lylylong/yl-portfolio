@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { titleCaseRemoveHyphen } from "../../utils/helper";
-import { Flex, Box, Image, Link, Badge } from "@chakra-ui/react";
+import { Center, SimpleGrid, Box, Image, Link, Badge } from "@chakra-ui/react";
 
 function Portfolio() {
   // all projects
@@ -45,62 +45,59 @@ function Portfolio() {
   //   const { name, description, link, repo } = [projects[i]];
 
   return (
-    <Flex align="center" justify="space-between" wrap="wrap" w="100%" p={6}>
+    <SimpleGrid minChildWidth="320px" spacingX="40px" spacingY="20px">
       {projects.map((project, i) => (
-        <Box
-          maxW="sm"
-          borderWidth="1px"
-          borderRadius="lg"
-          overflow="hidden"
-          mt="8"
-        >
-          <Image
-            src={require(`../../assets/projects/${project.name}.jpg`).default}
-            alt={project.name + " app"}
-          />
+        <Center>
+          <Box
+            maxW="sm"
+            borderWidth="1px"
+            borderRadius="lg"
+            overflow="hidden"
+            mt="8"
+          >
+            <Image
+              src={require(`../../assets/projects/${project.name}.jpg`).default}
+              alt={project.name + " app"}
+            />
 
-          <Box p="5" pt="3">
-            <Box
-              mt="1"
-              fontWeight="semibold"
-              as="h4"
-              lineHeight="tight"
-              mb="3"
-              isTruncated
-            >
-              {titleCaseRemoveHyphen(project.name)}
-            </Box>
-            <Box d="flex" alignItems="baseline">
-              <Box
-                color="gray.500"
-                fontWeight="semibold"
-                letterSpacing="wide"
-                fontSize="xs"
-                textTransform="uppercase"
-              >
-                <Link color="teal.500" href={project.link} target="_blank">
-                  <Badge borderRadius="full" px="2" colorScheme="teal">
-                    Deployed URL
-                  </Badge>
-                </Link>
-                <Link
-                  color="pink.500"
-                  href={project.repo}
-                  target="_blank"
-                  ml="2"
+            <Box p="5" pt="3">
+              <Box mt="1" fontWeight="bold" as="h2" mb="3" isTruncated>
+                {titleCaseRemoveHyphen(project.name)}
+              </Box>
+              <Box d="flex" alignItems="baseline">
+                <Box
+                  color="gray.500"
+                  fontWeight="semibold"
+                  letterSpacing="wide"
+                  fontSize="xs"
+                  textTransform="uppercase"
                 >
-                  <Badge borderRadius="full" px="2" colorScheme="pink">
-                    GitHub Link
-                  </Badge>
-                </Link>
+                  <Link color="teal.500" href={project.link} target="_blank">
+                    <Badge borderRadius="full" px="2" colorScheme="teal">
+                      Deployed URL
+                    </Badge>
+                  </Link>
+                  <Link
+                    color="pink.500"
+                    href={project.repo}
+                    target="_blank"
+                    ml="2"
+                  >
+                    <Badge borderRadius="full" px="2" colorScheme="pink">
+                      GitHub Link
+                    </Badge>
+                  </Link>
+                </Box>
+              </Box>
+
+              <Box mt="1" color="gray.600">
+                {project.description}
               </Box>
             </Box>
-
-            <Box mt="1">{project.description}</Box>
           </Box>
-        </Box>
+        </Center>
       ))}
-    </Flex>
+    </SimpleGrid>
   );
 }
 
