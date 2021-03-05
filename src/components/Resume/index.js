@@ -1,6 +1,7 @@
 import React from "react";
 import { DownloadIcon, CheckCircleIcon } from "@chakra-ui/icons";
 import {
+  Center,
   SimpleGrid,
   Box,
   Button,
@@ -12,18 +13,18 @@ import {
 function Resume() {
   return (
     <SimpleGrid minChildWidth="120px" spacing="40px">
-      <Box w="100%">
+      <Center w="100%">
         <Button colorScheme="teal" variant="solid">
           {" "}
           <a
             className="download"
-            href="https://github.com/lylylong/yl-portfolio/files/6088091/LY-resume.pdf"
+            href="https://github.com/lylylong/yl-portfolio/files/6088453/Yin.Long.Resume.pdf"
             download="Yin Long Resume.pdf"
           >
             <DownloadIcon /> My resume{" "}
           </a>
         </Button>
-      </Box>
+      </Center>
       <Box w="100%">
         <Text color="gray.500" fontSize="lg" fontWeight="bold" mb="2">
           Front-End Skills:
