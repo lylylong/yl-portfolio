@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/yl-portfolio/static/css/main.8ee608a9.chunk.css",
+    "main.js": "/yl-portfolio/static/js/main.f2100926.chunk.js",
+    "main.js.map": "/yl-portfolio/static/js/main.f2100926.chunk.js.map",
+    "runtime-main.js": "/yl-portfolio/static/js/runtime-main.b91492fb.js",
+    "runtime-main.js.map": "/yl-portfolio/static/js/runtime-main.b91492fb.js.map",
+    "static/js/2.79296c27.chunk.js": "/yl-portfolio/static/js/2.79296c27.chunk.js",
+    "static/js/2.79296c27.chunk.js.map": "/yl-portfolio/static/js/2.79296c27.chunk.js.map",
+    "static/js/3.762ea9a3.chunk.js": "/yl-portfolio/static/js/3.762ea9a3.chunk.js",
+    "static/js/3.762ea9a3.chunk.js.map": "/yl-portfolio/static/js/3.762ea9a3.chunk.js.map",
+    "index.html": "/yl-portfolio/index.html",
+    "static/css/main.8ee608a9.chunk.css.map": "/yl-portfolio/static/css/main.8ee608a9.chunk.css.map",
+    "static/js/2.79296c27.chunk.js.LICENSE.txt": "/yl-portfolio/static/js/2.79296c27.chunk.js.LICENSE.txt",
+    "static/media/COVID-19-Tracker.jpg": "/yl-portfolio/static/media/COVID-19-Tracker.e51f4f16.jpg",
+    "static/media/cake-app.jpg": "/yl-portfolio/static/media/cake-app.9e0c53e6.jpg",
+    "static/media/expense-tracker.jpg": "/yl-portfolio/static/media/expense-tracker.ca5f7bc1.jpg",
+    "static/media/moviegoer.jpg": "/yl-portfolio/static/media/moviegoer.eb07b312.jpg",
+    "static/media/my-weather-channel.jpg": "/yl-portfolio/static/media/my-weather-channel.b3ffb892.jpg",
+    "static/media/quick-notes.jpg": "/yl-portfolio/static/media/quick-notes.4b251ef5.jpg",
+    "static/media/work-time-planner.jpg": "/yl-portfolio/static/media/work-time-planner.83a224f2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b91492fb.js",
+    "static/js/2.79296c27.chunk.js",
+    "static/css/main.8ee608a9.chunk.css",
+    "static/js/main.f2100926.chunk.js"
+  ]
+}
