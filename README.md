@@ -1,78 +1,39 @@
-# Getting Started with Create React App
+# Yin Long Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+When you load this Yin Long Portfolio, you will be presented with the page containing a header, and a section for content. When you view the header, you will be presented with my name and navigation with titles corresponding to different sections of the portfolio.
 
-In the project directory, you can run:
+When you view the navigation titles, you will be presented with the titles Portfolio, About Me, Resume, and Contact. The title corresponding to the current section is displayed. When you click on a navigation title, you will be presented with the corresponding section below the navigation without the page reloading and that title is highlighted.
 
-### `npm start`
+## Deployed Application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://lylylong.github.io/yl-portfolio
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## GitHub URL
 
-### `npm test`
+https://github.com/lylylong/yl-portfolio.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Single Page Applications
 
-### `npm run build`
+Single Page Applications, or SPA, interacts with the browser and re-render the current web page with new content from the web server, instead of requesting the browser to load new web pages.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- CSS
+- HTML
+- React
+- JavaScript
+- font-awesome
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
 
-### `npm run eject`
+- lylylong
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contact
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+View my GitHub page:
+https://github.com/lylylong
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-### Web Logos
-
-![yl-logo-s 192](https://user-images.githubusercontent.com/70302749/109900934-27bae400-7c66-11eb-916b-9bd1f2011c2c.png)
-
-![yl-logo 192](https://user-images.githubusercontent.com/70302749/109902647-bc264600-7c68-11eb-98be-38a860b35fa6.png)
-
-![yl-logo2 192](https://user-images.githubusercontent.com/70302749/109903412-c137c500-7c69-11eb-8b84-bf090a61e774.png)
+If you have any questions, please send me emails:
+lylylong@gmail.com
