@@ -1,5 +1,5 @@
 import React from "react";
-import { DownloadIcon, CheckCircleIcon } from "@chakra-ui/icons";
+import { DownloadIcon, CheckCircleIcon, ViewIcon } from "@chakra-ui/icons";
 import {
   Center,
   SimpleGrid,
@@ -14,16 +14,31 @@ function Resume() {
   return (
     <SimpleGrid minChildWidth="150px" spacing="15px">
       <Center w="100%">
-        <Button colorScheme="teal" variant="solid">
-          {" "}
-          <a
-            className="download"
-            href="https://github.com/lylylong/yl-portfolio/files/6088453/Yin.Long.Resume.pdf"
-            download="Yin Long Resume.pdf"
-          >
-            <DownloadIcon /> My resume{" "}
-          </a>
-        </Button>
+        <List>
+          <ListItem my={8}>
+            <Button colorScheme="teal" variant="solid">
+              {" "}
+              <a
+                href="https://github.com/lylylong/yl-portfolio/files/6096837/Yin-Long-Resume.pdf"
+                download="Yin-Long-Resume.pdf"
+              >
+                <DownloadIcon /> Resume{" "}
+              </a>
+            </Button>
+          </ListItem>
+
+          <ListItem my={8}>
+            <Button colorScheme="pink" variant="solid">
+              {" "}
+              <a
+                href="https://github.com/lylylong/yl-portfolio/blob/main/src/assets/download/Yin-Long-Resume.pdf"
+                target="_blank"
+              >
+                <ViewIcon /> Resume{" "}
+              </a>
+            </Button>
+          </ListItem>
+        </List>
       </Center>
       <Box w="100%">
         <Text color="gray.500" fontSize="lg" fontWeight="bold" mb="2">

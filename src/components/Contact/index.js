@@ -115,13 +115,16 @@ function Contact() {
             </ListItem>
             <ListItem>
               <Icon as={FaGithub} w={6} h={6} color="teal.500" /> &nbsp;{" "}
-              <Link href="https://github.com/lylylong">
+              <Link href="https://github.com/lylylong" target="_blank">
                 github.com/lylylong
               </Link>
             </ListItem>
             <ListItem>
               <Icon as={FaLinkedin} w={6} h={6} color="teal.500" /> &nbsp;
-              <Link href="https://www.linkedin.com/in/yin-long/">
+              <Link
+                href="https://www.linkedin.com/in/yin-long/"
+                target="_blank"
+              >
                 linkedin.com/in/yin-long
               </Link>
             </ListItem>
