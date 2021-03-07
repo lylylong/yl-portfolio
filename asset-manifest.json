@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/yl-portfolio/static/css/main.8ee608a9.chunk.css",
-    "main.js": "/yl-portfolio/static/js/main.5a23a8c5.chunk.js",
-    "main.js.map": "/yl-portfolio/static/js/main.5a23a8c5.chunk.js.map",
-    "runtime-main.js": "/yl-portfolio/static/js/runtime-main.f9d073dc.js",
-    "runtime-main.js.map": "/yl-portfolio/static/js/runtime-main.f9d073dc.js.map",
-    "static/js/2.ce32edb7.chunk.js": "/yl-portfolio/static/js/2.ce32edb7.chunk.js",
-    "static/js/2.ce32edb7.chunk.js.map": "/yl-portfolio/static/js/2.ce32edb7.chunk.js.map",
-    "static/js/3.70bd57a5.chunk.js": "/yl-portfolio/static/js/3.70bd57a5.chunk.js",
-    "static/js/3.70bd57a5.chunk.js.map": "/yl-portfolio/static/js/3.70bd57a5.chunk.js.map",
+    "main.css": "/yl-portfolio/static/css/main.92cdd10a.chunk.css",
+    "main.js": "/yl-portfolio/static/js/main.58405d6f.chunk.js",
+    "main.js.map": "/yl-portfolio/static/js/main.58405d6f.chunk.js.map",
+    "runtime-main.js": "/yl-portfolio/static/js/runtime-main.d0ccdd14.js",
+    "runtime-main.js.map": "/yl-portfolio/static/js/runtime-main.d0ccdd14.js.map",
+    "static/js/2.58e9ca7d.chunk.js": "/yl-portfolio/static/js/2.58e9ca7d.chunk.js",
+    "static/js/2.58e9ca7d.chunk.js.map": "/yl-portfolio/static/js/2.58e9ca7d.chunk.js.map",
+    "static/js/3.3593368b.chunk.js": "/yl-portfolio/static/js/3.3593368b.chunk.js",
+    "static/js/3.3593368b.chunk.js.map": "/yl-portfolio/static/js/3.3593368b.chunk.js.map",
     "index.html": "/yl-portfolio/index.html",
-    "static/css/main.8ee608a9.chunk.css.map": "/yl-portfolio/static/css/main.8ee608a9.chunk.css.map",
-    "static/js/2.ce32edb7.chunk.js.LICENSE.txt": "/yl-portfolio/static/js/2.ce32edb7.chunk.js.LICENSE.txt",
+    "static/css/main.92cdd10a.chunk.css.map": "/yl-portfolio/static/css/main.92cdd10a.chunk.css.map",
+    "static/js/2.58e9ca7d.chunk.js.LICENSE.txt": "/yl-portfolio/static/js/2.58e9ca7d.chunk.js.LICENSE.txt",
     "static/media/COVID-19-Tracker.jpg": "/yl-portfolio/static/media/COVID-19-Tracker.e51f4f16.jpg",
     "static/media/cake-app.jpg": "/yl-portfolio/static/media/cake-app.9e0c53e6.jpg",
     "static/media/expense-tracker.jpg": "/yl-portfolio/static/media/expense-tracker.ca5f7bc1.jpg",
@@ -21,9 +21,9 @@
     "static/media/work-time-planner.jpg": "/yl-portfolio/static/media/work-time-planner.83a224f2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9d073dc.js",
-    "static/js/2.ce32edb7.chunk.js",
-    "static/css/main.8ee608a9.chunk.css",
-    "static/js/main.5a23a8c5.chunk.js"
+    "static/js/runtime-main.d0ccdd14.js",
+    "static/js/2.58e9ca7d.chunk.js",
+    "static/css/main.92cdd10a.chunk.css",
+    "static/js/main.58405d6f.chunk.js"
   ]
 }
