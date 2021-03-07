@@ -49,11 +49,11 @@ function Portfolio() {
       {projects.map((project, i) => (
         <Center>
           <Box
-            maxW="sm"
+            maxW="lg"
             borderWidth="1px"
             borderRadius="lg"
             overflow="hidden"
-            mt="8"
+            mt="2"
           >
             <Image
               src={require(`../../assets/projects/${project.name}.jpg`).default}

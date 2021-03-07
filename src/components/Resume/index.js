@@ -12,7 +12,7 @@ import {
 
 function Resume() {
   return (
-    <SimpleGrid minChildWidth="120px" spacing="40px">
+    <SimpleGrid minChildWidth="150px" spacing="15px">
       <Center w="100%">
         <Button colorScheme="teal" variant="solid">
           {" "}

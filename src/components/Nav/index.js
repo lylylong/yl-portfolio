@@ -10,17 +10,9 @@ import {
   Stack,
   Flex,
   useColorModeValue,
-  //   useDisclosure,
   Button,
   Image,
-  // Lorem,
-  // Modal,
-  // ModalOverlay,
-  // ModalContent,
-  // ModalHeader,
-  // ModalFooter,
-  // ModalBody,
-  // ModalCloseButton,
+  useMediaQuery,
 } from "@chakra-ui/react";
 
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
@@ -40,6 +32,8 @@ function Nav(props) {
     document.title = "Yin - " + titleCase(currentPage.name);
   }, [currentPage]);
 
+  const [isLargerThan451] = useMediaQuery("(min-width: 451px)");
+
   return (
     <>
       <Box>
@@ -49,19 +43,28 @@ function Nav(props) {
           justify="space-between"
           wrap="wrap"
           w="100%"
-          p={6}
+          p={5}
+          pl={2}
           bg={useColorModeValue("white", "gray.800")}
           color={useColorModeValue("gray.600", "white")}
         >
-          <Center w="350px" color={["primary.500", "primary.500"]}>
+          <Center
+            w="350px"
+            w={isLargerThan451 ? "350px" : "300px"}
+            color={["primary.500", "primary.500"]}
+          >
             <Stack direction="row" justify="space-between" align="center">
               <Image
-                boxSize="48px"
+                boxSize={isLargerThan451 ? "48px" : "40px"}
                 objectFit="cover"
                 src="https://user-images.githubusercontent.com/70302749/109902647-bc264600-7c68-11eb-98be-38a860b35fa6.png"
                 alt="Yin Long Logo"
               />
-              <Text fontSize="4xl" color="gray" fontWeight="thin">
+              <Text
+                color="gray"
+                fontWeight="thin"
+                fontSize={isLargerThan451 ? "4xl" : "3xl"}
+              >
                 Yin Long Portfolio
               </Text>
             </Stack>

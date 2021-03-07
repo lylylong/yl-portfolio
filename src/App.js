@@ -7,6 +7,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 
 import Nav from "./components/Nav";
 import Page from "./components/Page";
+import Footer from "./components/Footer";
 
 function App() {
   // initial page title name
@@ -30,6 +31,7 @@ function App() {
       ></Nav>
 
       <Page currentPage={currentPage}></Page>
+      <Footer />
     </ChakraProvider>
   );
 }
