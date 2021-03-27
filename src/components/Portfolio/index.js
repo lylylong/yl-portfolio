@@ -47,7 +47,7 @@ function Portfolio() {
   return (
     <SimpleGrid minChildWidth="320px" spacingX="40px" spacingY="20px">
       {projects.map((project, i) => (
-        <Center>
+        <Center key={"project" + i}>
           <Box
             maxW="lg"
             borderWidth="1px"
@@ -55,11 +55,15 @@ function Portfolio() {
             overflow="hidden"
             mt="2"
           >
-            <Image
-              src={require(`../../assets/projects/${project.name}.jpg`).default}
-              alt={project.name + " app"}
-            />
-
+            <Link href={project.link} target="_blank">
+              <Image
+                src={
+                  require(`../../assets/projects/${project.name}.jpg`).default
+                }
+                alt={project.name + " app"}
+                className="project-image"
+              />
+            </Link>
             <Box p="5" pt="3">
               <Box mt="1" fontWeight="bold" as="h2" mb="3" isTruncated>
                 {titleCaseRemoveHyphen(project.name)}
