@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/yl-portfolio/static/css/main.86c10a17.chunk.css",
-    "main.js": "/yl-portfolio/static/js/main.216af8e5.chunk.js",
-    "main.js.map": "/yl-portfolio/static/js/main.216af8e5.chunk.js.map",
+    "main.css": "/yl-portfolio/static/css/main.bf15fabb.chunk.css",
+    "main.js": "/yl-portfolio/static/js/main.913b9490.chunk.js",
+    "main.js.map": "/yl-portfolio/static/js/main.913b9490.chunk.js.map",
     "runtime-main.js": "/yl-portfolio/static/js/runtime-main.d85ddc36.js",
     "runtime-main.js.map": "/yl-portfolio/static/js/runtime-main.d85ddc36.js.map",
     "static/js/2.3b26efe8.chunk.js": "/yl-portfolio/static/js/2.3b26efe8.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.61885560.chunk.js": "/yl-portfolio/static/js/3.61885560.chunk.js",
     "static/js/3.61885560.chunk.js.map": "/yl-portfolio/static/js/3.61885560.chunk.js.map",
     "index.html": "/yl-portfolio/index.html",
-    "static/css/main.86c10a17.chunk.css.map": "/yl-portfolio/static/css/main.86c10a17.chunk.css.map",
+    "static/css/main.bf15fabb.chunk.css.map": "/yl-portfolio/static/css/main.bf15fabb.chunk.css.map",
     "static/js/2.3b26efe8.chunk.js.LICENSE.txt": "/yl-portfolio/static/js/2.3b26efe8.chunk.js.LICENSE.txt",
     "static/media/COVID-19-Tracker.jpg": "/yl-portfolio/static/media/COVID-19-Tracker.10f34885.jpg",
     "static/media/cake-app.jpg": "/yl-portfolio/static/media/cake-app.9e0c53e6.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.d85ddc36.js",
     "static/js/2.3b26efe8.chunk.js",
-    "static/css/main.86c10a17.chunk.css",
-    "static/js/main.216af8e5.chunk.js"
+    "static/css/main.bf15fabb.chunk.css",
+    "static/js/main.913b9490.chunk.js"
   ]
 }
