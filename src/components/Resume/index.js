@@ -19,7 +19,7 @@ function Resume() {
             <Button colorScheme="teal" variant="solid">
               {" "}
               <a
-                href="https://github.com/lylylong/yl-portfolio/files/6112507/Yin-Long-Resume.pdf"
+                href="https://github.com/lylylong/yl-portfolio/files/6218849/Yin-Long-Resume.pdf"
                 download="Yin-Long-Resume.pdf"
               >
                 <DownloadIcon /> Resume{" "}

@@ -77,7 +77,12 @@ function Portfolio() {
                   textTransform="uppercase"
                 >
                   <Link color="teal.500" href={project.link} target="_blank">
-                    <Badge borderRadius="full" px="2" colorScheme="teal">
+                    <Badge
+                      borderRadius="full"
+                      px="2"
+                      colorScheme="teal"
+                      className="link-to-url"
+                    >
                       Deployed URL
                     </Badge>
                   </Link>
@@ -87,7 +92,12 @@ function Portfolio() {
                     target="_blank"
                     ml="2"
                   >
-                    <Badge borderRadius="full" px="2" colorScheme="pink">
+                    <Badge
+                      borderRadius="full"
+                      px="2"
+                      colorScheme="pink"
+                      className="link-to-gh"
+                    >
                       GitHub Link
                     </Badge>
                   </Link>

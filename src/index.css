@@ -26,3 +26,12 @@ li {
 .project-image:hover {
   opacity: 0.6;
 }
+.link-to-url:hover {
+  color: palevioletred;
+  opacity: 0.7;
+}
+
+.link-to-gh:hover {
+  color: teal;
+  opacity: 0.6;
+}
