@@ -30,11 +30,17 @@ function Portfolio() {
       repo: "https://github.com/lylylong/work-time-planner.git",
     },
     {
-      name: "expense-tracker",
-      description: "Node.js/express/mongoDB Project",
-      link: "https://expense-tracker-2021.herokuapp.com/",
-      repo: "https://github.com/lylylong/expense-tracker.git",
+      name: "code-quiz",
+      description: "JaveScript/CSS/HTML Project",
+      link: "https://lylylong.github.io/javascript-code-quiz/",
+      repo: "https://github.com/lylylong/javascript-code-quiz.git",
     },
+    // {
+    //   name: "expense-tracker",
+    //   description: "Node.js/express/mongoDB Project",
+    //   link: "https://expense-tracker-2021.herokuapp.com/",
+    //   repo: "https://github.com/lylylong/expense-tracker.git",
+    // },
     {
       name: "my-weather-channel",
       description: "JaveScript/CSS/HTML Project",
