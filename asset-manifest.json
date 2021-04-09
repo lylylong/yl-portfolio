@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/yl-portfolio/static/css/main.bf15fabb.chunk.css",
-    "main.js": "/yl-portfolio/static/js/main.913b9490.chunk.js",
-    "main.js.map": "/yl-portfolio/static/js/main.913b9490.chunk.js.map",
-    "runtime-main.js": "/yl-portfolio/static/js/runtime-main.d85ddc36.js",
-    "runtime-main.js.map": "/yl-portfolio/static/js/runtime-main.d85ddc36.js.map",
-    "static/js/2.3b26efe8.chunk.js": "/yl-portfolio/static/js/2.3b26efe8.chunk.js",
-    "static/js/2.3b26efe8.chunk.js.map": "/yl-portfolio/static/js/2.3b26efe8.chunk.js.map",
-    "static/js/3.61885560.chunk.js": "/yl-portfolio/static/js/3.61885560.chunk.js",
-    "static/js/3.61885560.chunk.js.map": "/yl-portfolio/static/js/3.61885560.chunk.js.map",
+    "main.js": "/yl-portfolio/static/js/main.642d2a22.chunk.js",
+    "main.js.map": "/yl-portfolio/static/js/main.642d2a22.chunk.js.map",
+    "runtime-main.js": "/yl-portfolio/static/js/runtime-main.7c51fd1b.js",
+    "runtime-main.js.map": "/yl-portfolio/static/js/runtime-main.7c51fd1b.js.map",
+    "static/js/2.c0f408f6.chunk.js": "/yl-portfolio/static/js/2.c0f408f6.chunk.js",
+    "static/js/2.c0f408f6.chunk.js.map": "/yl-portfolio/static/js/2.c0f408f6.chunk.js.map",
+    "static/js/3.2a5ffb8f.chunk.js": "/yl-portfolio/static/js/3.2a5ffb8f.chunk.js",
+    "static/js/3.2a5ffb8f.chunk.js.map": "/yl-portfolio/static/js/3.2a5ffb8f.chunk.js.map",
     "index.html": "/yl-portfolio/index.html",
     "static/css/main.bf15fabb.chunk.css.map": "/yl-portfolio/static/css/main.bf15fabb.chunk.css.map",
-    "static/js/2.3b26efe8.chunk.js.LICENSE.txt": "/yl-portfolio/static/js/2.3b26efe8.chunk.js.LICENSE.txt",
+    "static/js/2.c0f408f6.chunk.js.LICENSE.txt": "/yl-portfolio/static/js/2.c0f408f6.chunk.js.LICENSE.txt",
     "static/media/COVID-19-Tracker.jpg": "/yl-portfolio/static/media/COVID-19-Tracker.10f34885.jpg",
     "static/media/cake-app.jpg": "/yl-portfolio/static/media/cake-app.9e0c53e6.jpg",
+    "static/media/code-quiz.jpg": "/yl-portfolio/static/media/code-quiz.7fcaa4d5.jpg",
     "static/media/expense-tracker.jpg": "/yl-portfolio/static/media/expense-tracker.ca5f7bc1.jpg",
     "static/media/moviegoer.jpg": "/yl-portfolio/static/media/moviegoer.3027ff04.jpg",
     "static/media/my-weather-channel.jpg": "/yl-portfolio/static/media/my-weather-channel.75256bbb.jpg",
@@ -21,9 +22,9 @@
     "static/media/work-time-planner.jpg": "/yl-portfolio/static/media/work-time-planner.83a224f2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d85ddc36.js",
-    "static/js/2.3b26efe8.chunk.js",
+    "static/js/runtime-main.7c51fd1b.js",
+    "static/js/2.c0f408f6.chunk.js",
     "static/css/main.bf15fabb.chunk.css",
-    "static/js/main.913b9490.chunk.js"
+    "static/js/main.642d2a22.chunk.js"
   ]
 }
