@@ -20,8 +20,8 @@ function Portfolio() {
     {
       name: "COVID-19-Tracker",
       description: "JaveScript/CSS/HTML Project",
-      link: "https://lylylong.github.io/COVID-19-Tracker/",
-      repo: "https://github.com/lylylong/COVID-19-Tracker",
+      link: "https://lylylong.github.io/covid-19-tracker/",
+      repo: "https://github.com/lylylong/covid-19-tracker.git",
     },
     {
       name: "work-time-planner",
